@@ -1,0 +1,26 @@
+/* Reference to Fonts
+***********************/
+
+@font-face { font-family: Gotham Rounded Book; src: url('fonts/GothamRnd-Book.otf'); }
+@font-face { font-family: Gotham Rounded Medium; src: url('fonts/GothamRnd-Medium.otf'); }
+
+/* Basic Elements */
+
+body {
+    background: url('img/body_bg.jpg') #dcf9ff repeat-x 0 0;
+    font: .8em Gotham Rounded Book, arial, helvetica, sans-serif;
+}
+
+h2 {
+    font: 500 1.5em/2em Gotham Rounded Medium;
+    color: #5d9b3e;
+    /* border-bottom: 1px solid #b2d7e1; */
+}
+
+.content {
+    color: #606a6d;
+}
+
+#footer {
+    background: #97C67F;
+}
