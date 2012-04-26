@@ -1,7 +1,7 @@
 <!SLIDE center>
 # A Gestalt Informant #
-<span id="title">
-![letter](../img/letter.png)
+ <span id="title">
+ ![letter](../img/letter.png)
 </span>
 
 ## Heavy Water Software ##
@@ -25,7 +25,7 @@
 * In psychology:
 * Brain possesses self-organizing tendencies
 * Perception is the product of complex interactions among various
-  stimuli
+stimuli
 
 .notes used in both art and psychology, wish I could say that was my inspiration
 
@@ -63,3 +63,51 @@ field where assets can often seem much less tangible.
 * Failures often a result of a confluence of events, no single root cause
 
 .notes and other reasons
+
+<!SLIDE subsection>
+# gdash #
+
+<!SLIDE code >
+# ::Resources #
+## gdash_dashboard ##
+
+    @@@ Ruby
+    def initialize(*args)
+      super
+      @action = :create
+    end
+
+    actions :create, :delete
+
+    attribute :category, :kind_of => String, :required => true
+    attribute :description, :kind_of => String, :required => true
+    attribute :display_name, :kind_of => String, :required => false
+
+<!SLIDE code >
+#  ::Resources #
+## gdash_dashboard_component ##
+
+    @@@ Ruby
+    def initialize(*args)
+      super
+      @action = :create
+    end
+
+    actions :create, :delete
+
+    attribute :lines, :kind_of => Array, :required => false
+
+    %w(forecasts fields).each do |attr_hash|
+      attribute attr_hash, :kind_of => Hash, :required => false
+    end
+
+    %w(dashboard_name dashboard_category).each do |attr_string_req|
+      attribute attr_string_req, :kind_of => String, :required => true
+    end
+
+    hash_attrs = %w(warning critical)
+    hash_attrs.each do |attr_hash|
+      attribute attr_hash, :kind_of => String, :required => false
+    end
+    
+    ... "There's more clever stuff, go check out the code!"
