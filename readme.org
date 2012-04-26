@@ -1,0 +1,21 @@
+* Intro
+** Monitoring is important
+   you can't manage what you haven't measured
+** Monitoring is hard
+   just because it's up doesn't mean it's working
+** Distributed systems are complex
+* Reasoning
+** Gestalt
+   The whole is greater than the sum of it's parts
+** No single tool will fit the needs of everyone
+** Better to build a cohesive whole out of orthogonal pieces
+** Critical elements
+   If it moves graph it, if it's important alert on it. 
+*** Metrics
+*** Alerting
+* Tools
+** Sensu
+*** Pagerduty
+** Graphite
+** Gdash/Graphiti
+** Logstash -?
