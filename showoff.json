@@ -1,6 +1,15 @@
 {
     "name": "Gestalt Informant",
+    "description": "A framework of loosely coupled monitoring tools",
+    "author": "Sean Escriva <sean.escriva@gmail.com>",
+    "pause_msg": "Oprit !!!",
     "sections": [
-        {"section":"one"}
+        {"section":"intro"},
+        {"section":"sensu"},
+        {"section":"collectd"},
+        {"section":"graphite"},
+        {"section":"gdash"},
+        {"section":"echelon"},
+        {"section":"end"}
     ]
 }

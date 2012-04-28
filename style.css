@@ -4,12 +4,13 @@
 @font-face { font-family: "Gotham Rounded Book"; src: url('fonts/GothamRnd-Book.otf'); }
 @font-face { font-family: "Gotham Rounded Medium"; src: url('fonts/GothamRnd-Medium.otf'); }
 
+/* Angryfruitsalad!  */
 @import "sh_emacs.css";
 
 /* Basic Elements */
 
 body {
-    background: url('img/body_bg.jpg') #dcf9ff repeat-x 0 0;
+    background: url('img/slide_bg.png') #dcf9ff repeat-x 0 0;
     font: .8em "Gotham Rounded Book", arial, helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -37,27 +38,27 @@ h2 {
 }
 
 /* Code font*/
-#preso code,
-#preso pre {
-    font-family: Consolas,
-             "Andale Mono",
-             "Lucida Console",
-             "Lucida Sans Typewriter",
-             "DejaVu Sans Mono",
-             "Bitstream Vera Sans Mono",
-             "Liberation Mono",
-             "Nimbus Mono L",
-             Monaco,
-             "Courier New",
-             Courier,
-             monospace;
-    color: #000;
-    padding: 0.5em;
-    font-size: 18px;
-    background-color: transparent;
-}
-#preso code {
-    display: block;
-    border: 1px dashed #65aaba;
-    background-color: #eee;
-}
+/* #preso code, */
+/* #preso pre { */
+/*     font-family: Consolas, */
+/*              "Andale Mono", */
+/*              "Lucida Console", */
+/*              "Lucida Sans Typewriter", */
+/*              "DejaVu Sans Mono", */
+/*              "Bitstream Vera Sans Mono", */
+/*              "Liberation Mono", */
+/*              "Nimbus Mono L", */
+/*              Monaco, */
+/*              "Courier New", */
+/*              Courier, */
+/*              monospace; */
+/*     color: #000; */
+/*     padding: 0.5em; */
+/*     font-size: 18px; */
+/*     background-color: transparent; */
+/* } */
+/* #preso code { */
+/*     display: block; */
+/*     border: 1px dashed #65aaba; */
+/*     background-color: #eee; */
+/* } */
