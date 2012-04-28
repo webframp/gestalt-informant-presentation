@@ -132,7 +132,7 @@
     end
 
     remote_file File.join(node[:collectd][:plugin_dir], "carbon_writer.py") do
-      source "https://raw.github.com/indygreg/collectd-carbon/master/carbon_writer.py"
+      source node[:collectd][:carbon_writer_url]*
       owner "root"
       group "root"
       mode "644"
@@ -147,3 +147,5 @@
               "TypesDB" => node[:collectd][:types_db],
               :metric_prefix => "collectd" )
     end
+
+**"https://raw.github.com/indygreg/collectd-carbon/master/carbon_writer.py"*
