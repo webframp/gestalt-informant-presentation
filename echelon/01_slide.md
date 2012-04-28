@@ -9,7 +9,7 @@
 * gdash dashboards generated via LWRP
 * stdin metrics client available for arbitrary metrics
 
-<!SLIDE code>
+<!SLIDE code small>
 # role[monitor]
 
     @@@ Ruby
@@ -53,6 +53,7 @@
 .notes client bits are actually pretty simple
 
 <!SLIDE commandline incremental>
+# but wait there's more
 
     $ knife node show echelon.hw-ops.com
     Node Name:   echelon.hw-ops.com
@@ -61,7 +62,7 @@
     IP:          10.10.13.37
     Run List:    role[ubuntu_base], role[echelon]
     Roles:       ubuntu_base, users, utilities, firewall, monitor, sensu_client, 
-                 sensu, collectd_client, holy_grail, collectd_server,
+                 sensu, collectd_client, echelon, collectd_server,
                  graphite_server, sensu_server, gdash
     Recipes:     sudo, users::sysadmins, chef-client::delete_validation,
                  chef-client::config, chef-client::cron, chef_gem,
@@ -74,8 +75,7 @@
                  collectd::firewall, runit, collectd_plugins::carbon,
                  graphite, graphite::firewall, sensu::redis, sensu::rabbitmq,
                  sensu::server, sensu::api, sensu::dashboard, sensu::firewall,
-                 gdash::basic_dashboard, gdash, gdash::firewall,
-                 custom-dashboards
+                 gdash::basic_dashboard, gdash, gdash::firewall, dashboards
     Platform:    ubuntu 11.10
 
 <!SLIDE center>
@@ -94,7 +94,7 @@
         "role[graphite_server]",
         "role[sensu_server]",
         "recipe[gdash::basic_dashboard]"
-        "recipe[gse-dashboards]",
+        "recipe[dashboards]",
         ]                                                            
 
 <!SLIDE code small>

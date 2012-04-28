@@ -1,6 +1,8 @@
-<!SLIDE code small>
+<!SLIDE subsection>
 # gdash resources
-## gdash_dashboard
+
+<!SLIDE code small>
+# gdash_dashboard
 
     @@@ Ruby
     def initialize(*args)
@@ -15,8 +17,7 @@
     attribute :display_name, :kind_of => String, :required => false
 
 <!SLIDE code smaller>
-# gdash resources
-## gdash_dashboard_component
+# gdash_dashboard_component
 
     @@@ Ruby
     def initialize(*args)
