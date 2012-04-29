@@ -1,5 +1,7 @@
-<!SLIDE >
+<!SLIDE subsection>
 # integration
+
+
 
 <!SLIDE bullets incremental>
 # Chef ties it all together
