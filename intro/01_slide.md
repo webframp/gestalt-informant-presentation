@@ -15,17 +15,11 @@
 
 * an instance or example of such a unified whole.
 
-.notes first, maybe a definition is in order. who's heard of the term "gestalt"?
-it's about how we sort the complicated mass of information our eyes (and
-other senses) constantly feed our brain.
-
 <!SLIDE center bullets incremental transition=growX>
 
 * in art:
 * ![art gestalt](../img/design-gestalt2.png)
 * the unified whole is different from the sum of the parts
-
-.notes used in both art and psychology
 
 <!SLIDE center bullets incremental transition=growX>
 * in psychology:
@@ -33,14 +27,8 @@ other senses) constantly feed our brain.
 * brain is self-organizing
 * perception is a product of complex interactions among various stimuli
 
-.notes lots of clever parallels we could draw, wish I could say that
-was my inspiration
-
 <!SLIDE center transition=curtainX>
 ![devastator](../img/devastator_layout.png)
-
-.notes bonecrusher,hook,long haul,mixmaster,scavenger,scrapper. these
-little guys would combine
 
 <!SLIDE smaller center bullets incremental transition=fadeZoom>
 
