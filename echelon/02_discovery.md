@@ -2,6 +2,12 @@
 # Discovery
 ## [I'm in your infrastructure, finding your stuff]
 
-<!SLIDE code>
+<!SLIDE code small>
+# A simple search wrapper
 
-.notes simple code example
+    @@@ Ruby
+    host = Discovery.search("any_role",
+                            :node => node,
+                            :environment_aware => false)
+    
+

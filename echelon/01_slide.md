@@ -2,14 +2,13 @@
 # integration
 
 
-
 <!SLIDE bullets incremental>
 # Chef ties it all together
 
-* recipes to setup each componenent
+* recipes to setup each component
 * Discovery library integrates parts
 * gdash dashboards generated via LWRP
-* stdin metrics client available for arbitrary metrics
+* stdin metrics client for arbitrary metrics
 
 <!SLIDE code small>
 # role[monitor]
@@ -52,7 +51,6 @@
           "swap"
          ].map{ |p| "recipe[collectd_plugins::#{p}]" }
 
-.notes client bits are actually pretty simple
 
 <!SLIDE commandline incremental>
 # but wait there's more
@@ -96,7 +94,6 @@
         "role[graphite_server]",
         "role[sensu_server]",
         "recipe[gdash::basic_dashboard]"
-        "recipe[dashboards]",
         ]                                                            
 
 <!SLIDE code small>

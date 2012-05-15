@@ -50,7 +50,7 @@
 
 <!SLIDE code >
 
-    @@@ ruby
+    @@@ Ruby
     gdash_dashboard 'Base Metrics' do
         category 'Basic'
         description 'Simple Dashboard'
