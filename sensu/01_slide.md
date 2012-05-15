@@ -10,4 +10,4 @@
 * simple json configuration, easily generated
 * new nodes can self-register
 * re-use nagios checks, if desired
-* growing community plugins
+* growing community

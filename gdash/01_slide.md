@@ -6,9 +6,9 @@
 
 <!SLIDE bullets incremental>
 
+* sinatra app with minimal dependencies
 * minimal and clean, based on twitter bootstrap
 * graphs described using a small DSL
-* sinatra app with minimal dependencies
 
 <!SLIDE center>
 

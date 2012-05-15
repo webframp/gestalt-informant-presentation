@@ -2,11 +2,10 @@
 # STDIN metrics client
 ## [arbitrary data is arbitrary]
 
-<!SLIDE >
+<!SLIDE bullets incremental>
 * lightweight wrapper for local sensu socket
-
 * expects graphite format metrics:
-  * format_type VALUE TIMESTAMP\n
+* format_type VALUE TIMESTAMP\n
 
 <!SLIDE code smaller>
 # really simple
