@@ -10,4 +10,6 @@
 * graphs described using a small DSL
 * sinatra app with minimal dependencies
 
-.notes discuss briefly graphiti and why gdash, a pretty face for graphite
+<!SLIDE center>
+
+![thinking](../img/questioning.png)

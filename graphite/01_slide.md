@@ -13,4 +13,3 @@
 * lots of ways to ship data to carbon
 * powerful functions to analyze data
 
-.notes graphite is cool! have some pretty graphs
